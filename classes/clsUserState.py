@@ -54,7 +54,7 @@ class UserState:
                 dispcont = st.container(border=False, height=300)
                 with dispcont:
                     with st.chat_message("assistant"):
-                        st.markdown("Welcome to WrestleAI. Type below to try it out!")
+                        st.markdown("Welcome to SpartakusAI. Type below to try it out!")
             pcont = st.container(border=False, height=100)
             with pcont:
                 guestprompt = st.chat_input(placeholder="Type here to try the assistant!")
